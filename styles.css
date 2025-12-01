@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: rgb(1, 1, 44);;
+    background-color: rgb(1, 1, 44);
     color: white;
 }
 
@@ -81,11 +81,32 @@ footer {
     width: 500px;
 }
 
-
 /*Horario*/
+
+.container_1_seccion_1_horario {
+    background-color: rgb(21, 21, 49);
+    color: white;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.container_2_seccion_1_horario {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.color_horario {
+    color: white;
+    
+}
+
 table {
   border-collapse: collapse;
-  border: 2px solid #000;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
 }
 
 td,
@@ -95,14 +116,14 @@ th {
 }
 
 th {
-  background: #000;
+  background: rgb(1, 1, 44);;
   color: #fff;
   text-transform: uppercase;
 }
 
 td {
   text-align: center;
-  border-bottom: 2px solid #111;
-  color: #333;
+  border-bottom: 2px solid rgb(1, 1, 44);;
+  color: #ffffff;
   font-size: 18px;
 }
