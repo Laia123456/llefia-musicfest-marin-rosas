@@ -6,13 +6,57 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href="../index.html"><li>Inicio</li></a>
-            <a href="cartel.html"><li>Cartel</li></a>
-            <a href="horario.html"><li>Horario</li></a>
-            <a href="contacto.html"><li>Contacto</li></a>
-        </ul>
-    </nav>
+    <header>
+        <h1>Llefià Music Fest</h1>
+        <h2>Solicita información o entradas</h2>
+        <nav>
+            <ul>
+                <a href="../index.html"><li>Inicio</li></a>
+                <a href="cartel.html"><li>Cartel</li></a>
+                <a href="horario.html"><li>Horario</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section> <!--entrades y contacto-->
+        <h2>Entradas y contacto</h2>
+        <p>Completa este formulario de ejemplo. En el examen se te pedirá algo muy similar en otra página.</p>
+        <form action="#" method="post">
+            <label>Nombre completo:</label>
+            <input type="text" placeholder="Escribe tu nombre">
+        </form>
+        <form>
+            <label>Correo electrónico:</label>
+            <input type="email"placeholder="tucorreo@ejemplo.com">
+        </form>
+        <form>
+            <label>Tipo de entrada:</label>
+            <input type="checkbox" name="Pase 1 día" value="Pase 1 día">
+            Pase 1 día
+            <input type="checkbox" name="Pase 3 días" value="Pase 3 días">
+            Pase 3 días
+            <input type="checkbox" name="Entrada VIP" value="Entrada VIP">
+            Entrada VIP
+        </form>
+        <form>
+            <label>¿Quieres recibir el boletín del festival?</label>
+            <input type="checkbox" name="Sí, quiero novedades y playlists" value="Sí, quiero novedades y playlists">
+            Sí, quiero novedades y playlists
+            <input type="checkbox" name="No, prefiero no recibir correos" value="No, prefiero no recibir correos">
+            No, prefiero no recibir correos
+        </form>
+        <form>
+            <label>Mensaje:</label>
+            <input type="text" placeholder="Dudas sobre horarios, accesos, grupos...">
+        </form>
+        <form>
+            <label>Acepto la política de privacidad</label>
+            <input type="checkbox" required>
+        </form>
+        <form>
+            <button>Enviar solicitud</button>
+        </form>
+    </section>
+    <footer>© 2025 - Llefià Music Fest</footer>
 </body>
 </html>
