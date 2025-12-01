@@ -17,7 +17,7 @@ h1 {
     justify-content: center;
 }
 
-ul {
+.lista_nav {
     list-style: none;
     display: flex;
     gap: 30px;
@@ -27,19 +27,31 @@ ul {
 
 section {
     background-color: rgb(15, 14, 14);
-    width: 100%;
     padding-left: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 430px;
     padding-right: 200px;
-    padding-top: 10px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.h2_seccion_principal {
+    color: orange;
 }
 
 .container_1_seccion_principal {
     background-color: rgb(21, 21, 49);
     color: white;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.container_2_seccion_principal {
     display: flex;
     justify-content:center;
+    flex-direction: column;
     border-radius: 20px;
+    padding: 20px;
 }
 
 footer {
@@ -49,7 +61,7 @@ footer {
     justify-content: center;
 }
 
-
+/*Cartel*/
 
 
 /*Horario*/
