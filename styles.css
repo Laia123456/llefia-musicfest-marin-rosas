@@ -62,6 +62,24 @@ footer {
 }
 
 /*Cartel*/
+.titulo_secciones {
+    color: orange;
+}
+
+.color_cartel {
+    color: white;
+}
+
+.container_1_seccion_1_cartel {
+    background-color: rgb(21, 21, 49);
+    color: white;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.escenario img {
+    width: 500px;
+}
 
 
 /*Horario*/
